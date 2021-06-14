@@ -17,6 +17,8 @@ app.use(cors());
 
 app.use(bodyParser.json())
 
+app.use('/', express.static(__dirname + '/views'));
+
 app.use(require('./routes'))
 
 server.listen(process.env.PORT || 3333)
