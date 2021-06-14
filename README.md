@@ -1,4 +1,4 @@
-# tweet-dataset-creator-api
+# tweet-dataset-creator
 This acts as a end-point to the mongodb database previously created. Provide an interface to retrieve a tweet from the database and a way to evaluate a tweet as negative, neutral or positive.
 
 *More project description at: https://github.com/Juliano-rb/fetch-tweets-to-mongodb*
